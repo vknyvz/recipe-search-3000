@@ -1,0 +1,33 @@
+./vendor/bin/sail artisan recipe:create \
+  "Chocolate Lava Cake" \
+  "Decadent individual chocolate cakes with molten centers" \
+  "chef@example.com" \
+  --ingredients="4 oz dark chocolate, chopped" \
+  --ingredients="4 tbsp unsalted butter" \
+  --ingredients="2 large eggs" \
+  --ingredients="2 large egg yolks" \
+  --ingredients="1/4 cup granulated sugar" \
+  --ingredients="2 tbsp all-purpose flour" \
+  --ingredients="Butter for ramekins" \
+  --ingredients="Cocoa powder for dusting" \
+  --ingredients="Vanilla ice cream for serving" \
+  --steps="Preheat oven to 425°F (220°C)" \
+  --steps="Butter 4 ramekins and dust with cocoa powder" \
+  --steps="Melt chocolate and butter in double boiler" \
+  --steps="Whisk eggs, egg yolks, and sugar until thick" \
+  --steps="Fold melted chocolate into egg mixture" \
+  --steps="Gently fold in flour until just combined" \
+  --steps="Divide batter among prepared ramekins" \
+  --steps="Bake for 12-14 minutes until edges are firm" \
+  --steps="Let stand 1 minute, then invert onto plates" \
+  --steps="Serve immediately with vanilla ice cream"
+
+
+php artisan recipe:create ^ "Chocolate Lava Cake" ^ "Decadent individual chocolate cakes with molten centers" ^ "chef@example.com" ^ --ingredients="4 oz dark chocolate, chopped" ^ --ingredients="4 tbsp unsalted butter" ^ --ingredients="2 large eggs" ^ --ingredients="2 large egg yolks" ^ --ingredients="1/4 cup granulated sugar" ^ --ingredients="2 tbsp all-purpose flour" ^ --ingredients="Butter for ramekins" ^ --ingredients="Cocoa powder for dusting" ^ --ingredients="Vanilla ice cream for serving" ^ --steps="Preheat oven to 425°F (220°C)" ^ --steps="Butter 4 ramekins and dust with cocoa powder" ^ --steps="Melt chocolate and butter in double boiler" ^ --steps="Whisk eggs, egg yolks, and sugar until thick" ^ --steps="Fold melted chocolate into egg mixture" ^ --steps="Gently fold in flour until just combined" ^ --steps="Divide batter among prepared ramekins" ^ --steps="Bake for 12-14 minutes until edges are firm" ^ --steps="Let stand 1 minute, then invert onto plates" ^ --steps="Serve
+
+
+just for make sure use following email only 
+
+chef@example.com
+foo@bar.com
+baker@example.com
