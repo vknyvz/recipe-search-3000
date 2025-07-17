@@ -5,8 +5,9 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   modules: ['@nuxtjs/tailwindcss'],
   runtimeConfig: {
+    apiBase: process.env.API_BASE_URL_SERVER || 'http://host.docker.internal:8888/api', // server-side
     public: {
-      apiBase: process.env.API_BASE_URL || 'http://host.docker.internal:8888/api'
+      apiBase: process.env.API_BASE_URL || 'http://localhost:8888/api' // client-side
     }
   },
   ssr: true,

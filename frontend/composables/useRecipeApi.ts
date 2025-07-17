@@ -2,7 +2,7 @@ import type { Recipe, RecipeDetail, SearchFilters, PaginatedResponse } from '~/t
 
 export const useRecipeApi = () => {
   const config = useRuntimeConfig()
-  const baseURL = config.public.apiBase
+  const baseURL = process.server ? config.apiBase : config.public.apiBase
 
   const searchRecipes = async (filters: SearchFilters): Promise<PaginatedResponse<Recipe>> => {
     const query = new URLSearchParams()
