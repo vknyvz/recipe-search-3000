@@ -78,7 +78,6 @@
 </template>
 
 <script setup lang="ts">
-import type { RecipeDetail } from '~/types/recipe'
 
 const route = useRoute()
 const { getRecipe } = useRecipeApi()
