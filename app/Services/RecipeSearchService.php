@@ -5,8 +5,9 @@ namespace App\Services;
 use App\Models\Recipe;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Pagination\LengthAwarePaginator;
+use App\Interfaces\RecipeSearchServiceInterface;
 
-class RecipeSearchService
+class RecipeSearchService implements RecipeSearchServiceInterface
 {
     public function search(array $filters, int $page = 0, int $perPage = 12): LengthAwarePaginator
     {
@@ -20,7 +21,7 @@ class RecipeSearchService
                     ->withQueryString();
     }
 
-    private function applyFilters(Builder $query, array $filters): void
+    public function applyFilters(Builder $query, array $filters): void
     {
         // Author email filter (exact match)
         if (!empty($filters['email'])) {

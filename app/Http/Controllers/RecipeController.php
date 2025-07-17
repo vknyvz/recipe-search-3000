@@ -5,15 +5,14 @@ namespace App\Http\Controllers;
 use App\Http\Requests\RecipeSearchRequest;
 use App\Http\Resources\RecipeResource;
 use App\Http\Resources\RecipeDetailResource;
-use App\Models\Recipe;
-use App\Services\RecipeSearchService;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
 use Illuminate\Http\JsonResponse;
+use App\Interfaces\RecipeSearchServiceInterface;
 
 class RecipeController extends Controller
 {
     public function __construct(
-        private RecipeSearchService $searchService
+        private RecipeSearchServiceInterface $searchService
     ) {}
 
     public function index(RecipeSearchRequest $request): AnonymousResourceCollection
