@@ -1,5 +1,9 @@
 ## Getting started
 
+### View Changes 
+
+[(View Changes.MD to see what changed)](https://github.com/vknyvz/recipe-search-3000/blob/main/CHANGES.md)
+
 ### Pre-requisites
 - docker
 - docker-compose
