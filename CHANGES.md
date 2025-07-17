@@ -2,9 +2,9 @@
 
 ###
 
-[![Index Thumbnail](https://github.com/vknyvz/recipe-search-3000/index.png?raw=true)](https://github.com/vknyvz/recipe-search-3000/index.png)
+[![Index Thumbnail](https://github.com/vknyvz/recipe-search-3000/blob/main/index.png?raw=true)](https://github.com/vknyvz/recipe-search-3000/blob/main/index.png)
 
-[![Detail Thumbnail](https://github.com/vknyvz/recipe-search-3000/detail.png?raw=true)](https://github.com/vknyvz/recipe-search-3000/detail.png)
+[![Detail Thumbnail](https://github.com/vknyvz/recipe-search-3000/blob/main/detail.png?raw=true)](https://github.com/vknyvz/recipe-search-3000/blob/main/detail.png)
 
 
 ### Pre-requisites
