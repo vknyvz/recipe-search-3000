@@ -2,9 +2,9 @@
 
 ###
 
-[!(View Search UI)](https://github.com/vknyvz/recipe-search-3000/blob/main/index.png)
+[View Search UI](https://github.com/vknyvz/recipe-search-3000/blob/main/index.png)
 
-[!(View Detail UI)](https://github.com/vknyvz/recipe-search-3000/blob/main/detail.png)
+[View Detail UI](https://github.com/vknyvz/recipe-search-3000/blob/main/detail.png)
 
 - app
 	- /Console/Commands/CreateRecipeCommand.php
